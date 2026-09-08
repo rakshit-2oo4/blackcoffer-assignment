@@ -1,0 +1,19 @@
+{
+  "name": "viz-dashboard-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node api.js && node server.js",
+    "dev": "node api.js && nodemon server.js",
+    "seed": "node utils/seedData.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
